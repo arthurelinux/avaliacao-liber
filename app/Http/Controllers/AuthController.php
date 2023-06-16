@@ -1,25 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-/**
- * @OA\Info(
- *      version="1.0.0",
- *      x={
- *          "logo": {
- *              "url": "https://via.placeholder.com/190x90.png?text=L5-Swagger"
- *          }
- *      },
- *      title="Autenticação",
- *      description="API de avaliação",
- *      @OA\Contact(
- *          email="arthurcarlos17@gamil.com"
- *      ),
- *     @OA\License(
- *         name="Apache 2.0",
- *         url="https://www.apache.org/licenses/LICENSE-2.0.html"
- *     )
- * )
- */
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
